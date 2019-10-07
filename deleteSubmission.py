@@ -2,11 +2,12 @@ import requests
 
 url = "https://www.gocanvas.com/apiv2/delete_submissions" # Delete Submission API URL
 username = "<username>" # GoCanvas username
-password= "<password>" # GoCanvas password
+password = "<password>" # GoCanvas password
+apiKey = "<API Key>" # GoCanvas API Key
 
 # Set headers used in POST request
 headers={
-    "Authorization":"<API Key>", # GoCanvas API Key
+    "Authorization":apiKey, # GoCanvas API Key
 }
 
 # Set parameters used in POST request
